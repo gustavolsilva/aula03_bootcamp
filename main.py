@@ -41,3 +41,20 @@ lista_de_alunos = ["Rafael", "Fabio", "Luciano"]
 
 for aluno in lista_de_alunos:
     print(aluno)
+
+#%%
+
+import time
+
+condicao = True
+
+while condicao:
+    print("Execute minha ETL")
+    time.sleep(5)
+
+#%%
+nome = input("Digite um nome: ")
+if any(char.isalpha() for char in nome):
+    print("O nome não deve conter caracteres inválidos.")
+else:
+    nome.isalpha()
